@@ -213,6 +213,9 @@ return {
     PATCH = function(self, db)
       return target_endpoint(self, db, update_target_cb)
     end,
+    PUT = function(self, db)
+      return target_endpoint(self, db, update_target_cb)
+    end,
   },
 }
 
